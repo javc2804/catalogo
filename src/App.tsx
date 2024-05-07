@@ -36,5 +36,5 @@ export const App = () => {
 
 const ColorCatalogoWrapper = () => {
   const { index } = useParams();
-  return <ColorCatalogo colorIndex={parseInt(index)} />;
+  return <ColorCatalogo colorIndex={index ? parseInt(index) : 0} />;
 };
