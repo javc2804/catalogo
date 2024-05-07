@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import imagen1 from "./assets/1.png";
-import imagen2 from "./assets/2.png";
+import imagen2 from "./assets/6.png";
 import imagen3 from "./assets/3.png";
 
 export const Image = () => {
