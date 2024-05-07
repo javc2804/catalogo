@@ -1,4 +1,9 @@
-export const ColorCatalogo = ({ colorIndex }) => {
+// Define a type for the props
+type ColorCatalogoProps = {
+  colorIndex: number;
+};
+
+export const ColorCatalogo: React.FC<ColorCatalogoProps> = ({ colorIndex }) => {
   const colors = [
     "#FF0000",
     "#00FF00",
