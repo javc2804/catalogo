@@ -48,13 +48,13 @@ export const ColorCatalogo: React.FC<ColorCatalogoProps> = ({ colorIndex }) => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh",
+        height: "auto", // Cambia a auto
       }}
     >
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)", // Cambia a 4 columnas
+          gridTemplateColumns: "repeat(3, 1fr)", // Cambia a 3 columnas
           gap: "2px",
         }}
       >

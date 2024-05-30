@@ -8,6 +8,7 @@ import { ColorCatalogo } from "./ColorCatalogo";
 import { useEffect, useState } from "react";
 import Image from "./Image";
 import Logo from "./Logo";
+import ScrollToTop from "./ScrollToTop";
 
 export const App = () => {
   const [showLogo, setShowLogo] = useState(true);
@@ -21,6 +22,8 @@ export const App = () => {
 
   return (
     <Router>
+      <ScrollToTop />
+
       <div>
         {showLogo ? <Logo /> : null}
         {!showLogo ? (
