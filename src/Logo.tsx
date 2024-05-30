@@ -13,7 +13,7 @@ const Logo = () => {
       <img
         src={logoImage}
         alt="Logo"
-        style={{ width: "600px", height: "300px" }}
+        style={{ width: "100%", height: "20%" }}
       />
     </div>
   );
